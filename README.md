@@ -67,9 +67,8 @@ home, school, hospital, restaurant, park, and more...
 ```
 emoji-translator/
 ├── index.html          # Main HTML file
-├── static/
-│   ├── style.css       # Modern CSS styling
-│   └── script.js       # JavaScript logic
+├── style.css       # Modern CSS styling
+|── script.js       # JavaScript logic
 └── README.md           # This file
 ```
 
@@ -89,7 +88,7 @@ emoji-translator/
 ## 🎨 Customization
 
 ### Adding New Emojis
-Edit the `emojiMap` object in `static/script.js`:
+Edit the `emojiMap` object in `script.js`:
 ```javascript
 const emojiMap = {
     'your-word': '🎯',
@@ -98,7 +97,7 @@ const emojiMap = {
 ```
 
 ### Adding New Phrases
-Edit the `patterns` object in `static/script.js`:
+Edit the `patterns` object in `script.js`:
 ```javascript
 const patterns = {
     'your phrase': '🎯✨',
@@ -107,7 +106,7 @@ const patterns = {
 ```
 
 ### Styling
-Modify `static/style.css` to change colors, fonts, or layout.
+Modify `style.css` to change colors, fonts, or layout.
 
 ## 🚀 Performance
 
@@ -145,5 +144,6 @@ Created with ❤️ for emoji lovers everywhere!
 Start translating and bring more expression to your messages! 🚀✨
 
 ---
+
 
 **Tip**: Try combining words for even more fun results like "pizza party" or "coffee break"! 
