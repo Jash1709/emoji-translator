@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔤➡️😀 Emoji Translator</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔤➡️😀 Emoji Translator</h1>
+            <p>Transform your text into expressive emojis!</p>
+        </header>
+
+        <main>
+            <div class="translator-section">
+                <div class="input-section">
+                    <label for="textInput">Enter your text:</label>
+                    <textarea 
+                        id="textInput" 
+                        placeholder="Type a sentence like 'I want to eat pizza at home'..."
+                        rows="4"
+                    ></textarea>
+                    <button id="translateBtn" class="translate-btn">
+                        ✨ Translate to Emojis
+                    </button>
+                </div>
+
+                <div class="output-section">
+                    <label for="emojiOutput">Emoji translation:</label>
+                    <div id="emojiOutput" class="emoji-output">
+                        Your emojis will appear here! 🎉
+                    </div>
+                    <button id="copyBtn" class="copy-btn" style="display: none;">
+                        📋 Copy Emojis
+                    </button>
+                </div>
+            </div>
+
+            <div class="features">
+                <h3>Features:</h3>
+                <ul>
+                    <li>🎯 Smart word-to-emoji mapping</li>
+                    <li>🔄 Real-time translation</li>
+                    <li>📋 One-click copy functionality</li>
+                    <li>🎨 Beautiful, modern interface</li>
+                </ul>
+            </div>
+
+            <div class="examples">
+                <h3>Try these AI-enhanced examples:</h3>
+                <div class="example-buttons">
+                    <button class="example-btn" data-text="I am going to eat pizza">NLP: I am going to eat pizza</button>
+                    <button class="example-btn" data-text="My friend loves cats very much">NLP: My friend loves cats very much</button>
+                    <button class="example-btn" data-text="I want to go home and sleep">NLP: I want to go home and sleep</button>
+                    <button class="example-btn" data-text="She is cooking dinner at restaurant">NLP: She is cooking dinner at restaurant</button>
+                    <button class="example-btn" data-text="We are having a birthday party tonight">NLP: We are having a birthday party tonight</button>
+                    <button class="example-btn" data-text="The weather is beautiful today">NLP: The weather is beautiful today</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Made with ❤️ for emoji lovers everywhere!</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/compromise@14.14.3/builds/compromise.min.js"></script>
+    <script src="static/script.js"></script>
+</body>
+</html> 
